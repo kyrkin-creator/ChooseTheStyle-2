@@ -1,0 +1,133 @@
+/* Дополнительные стили для контента */
+.container_title {
+    width: 1000px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.subtitle {
+    margin: 40px 0 20px;
+    font-size: 32px;
+    font-weight: 700;
+    color: #8a4d2c;
+    border-bottom: 3px solid #8a4d2c;
+    padding-bottom: 10px;
+}
+
+.content-section {
+    margin: 25px 0;
+    padding: 20px;
+    background-color: rgba(255, 217, 173, 0.2);
+    border-radius: 10px;
+    border-left: 4px solid #8a4d2c;
+}
+
+.content-section h3 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #5a371e;
+    margin-bottom: 15px;
+}
+
+.content-section ul {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.content-section li {
+    margin-bottom: 8px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.content-section.warning {
+    background-color: rgba(255, 213, 213, 0.3);
+    border-left: 4px solid #cc3333;
+}
+
+.content-section.tips {
+    background-color: rgba(213, 233, 255, 0.3);
+    border-left: 4px solid #3366cc;
+}
+
+.content-section.conclusion {
+    background-color: rgba(213, 255, 221, 0.3);
+    border-left: 4px solid #33cc66;
+}
+
+.final-quote {
+    font-style: italic;
+    color: #5a371e;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: rgba(255, 217, 173, 0.4);
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+/* Убираем margin-top у footer, который был в оригинальном CSS */
+footer {
+    background-color: rgb(31, 12, 0);
+    color: #ffebd4;
+    padding: 50px;
+    margin-top: 100px; /* Уменьшил с 1000px */
+}
+
+/* Стили для заголовков в контенте */
+h1, h2, h3 {
+    font-family: "Google Sans Flex", sans-serif;
+}
+
+h1 {
+    color: #5a371e;
+    margin-bottom: 20px;
+}
+
+.hero--info p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: #333;
+    margin-top: 15px;
+}
+
+/* Адаптивность для контента */
+@media (max-width: 1100px) {
+    .container_title {
+        width: 90%;
+        padding: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container_title {
+        width: 95%;
+        padding: 20px;
+        margin: 30px auto;
+    }
+    
+    .subtitle {
+        font-size: 26px;
+        margin: 30px 0 15px;
+    }
+    
+    .content-section h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container_title {
+        padding: 15px;
+    }
+    
+    .subtitle {
+        font-size: 22px;
+    }
+    
+    .content-section {
+        padding: 15px;
+    }
+}
