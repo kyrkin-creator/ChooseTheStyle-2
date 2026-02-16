@@ -33,7 +33,6 @@ img {
 
 .container {
     width: 1400px;
-    margin: 0 auto;
 }
 
 header {
@@ -180,3 +179,69 @@ a {
 }
 
 
+
+@media (max-width: 1300px) {
+
+    .container {
+        width: 1000px;
+    }
+
+
+
+    footer .footer-container p {
+        width: 250px;
+    }
+
+    footer .footer-container div {
+        width: 250px;
+    }
+    
+
+
+
+}
+
+
+@media (max-width: 1000px) {
+
+    .container {
+        width: 900px;
+    }
+
+
+
+
+    footer .footer-container p {
+        width: 250px;
+    }
+
+    footer .footer-container div {
+        width: 250px;
+    }
+    
+
+
+
+}
+
+@media (max-width: 700px) {
+
+    .container {
+        width: 500px;
+    }
+
+
+
+
+    footer .footer-container p {
+        width: 250px;
+    }
+
+    footer .footer-container div {
+        width: 250px;
+    }
+    
+
+
+
+}
